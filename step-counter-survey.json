@@ -1,0 +1,364 @@
+{
+  "name": "In-app purchases, ratings and widgets of iPhone step counters",
+  "description": "A hand-made survey of iPhone step counter apps on the US App Store. In-app purchase prices were read off each app's own store page, because Apple's search interface does not report them. Ratings, widget mentions and last-updated months come from the same listings. No app was ranked or scored; this is what the store showed on the date below.",
+  "url": "https://angelstep.app/data",
+  "doi": "10.5281/zenodo.22032007",
+  "doi_url": "https://doi.org/10.5281/zenodo.22032007",
+  "measured": "2026-08-17",
+  "added": [
+    {
+      "app_store_id": "6805609971",
+      "name": "Angel Step",
+      "date": "2026-09-29",
+      "why": "the publisher's own app, added the day it went on sale"
+    }
+  ],
+  "modified": "2026-09-29",
+  "region": "US App Store",
+  "method": "Each app's App Store page was opened and read by hand on 2026-08-17. Purchases come from the 'In-App Purchases' block on that page; 'per its description' means the listing's own text says so, not that we verified the feature exists. The lock-screen column was read on 2026-08-19 from Apple's public listing data, matched to each app by name, rating count and last-updated month; in the same pass the widget and Health columns were re-read that way and agreed with the hand reading in every one of the 18 rows. Angel Step, the publisher's own app, was added on 2026-09-29, the day it went on sale, read off its own listing the same way; with no ratings yet it lowers the median rating count (1,267 over the other 18).",
+  "publisher": {
+    "name": "Angel Step",
+    "url": "https://angelstep.app",
+    "description": "a step counter for iPhone built around one number, with widgets on the home screen and the lock screen"
+  },
+  "license": {
+    "applies_to": "the compilation, its structure and the described method",
+    "not_claimed": "the underlying facts, which are Apple's public store listings",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Angel Step, https://angelstep.app/data"
+  },
+  "fields": {
+    "name": "App name as listed on the US App Store",
+    "listed_in": "Which of our guides the app appears in (cute, simple, free)",
+    "ratings_count": "Number of ratings shown on the listing",
+    "rating_average": "Average rating shown on the listing",
+    "widget_per_description": "The listing's own text mentions a widget — not that we verified one exists",
+    "reads_health_per_description": "The listing's own text says it reads Apple Health",
+    "last_updated": "Month of the last update shown on the listing",
+    "in_app_purchases": "Whether the listing shows an In-App Purchases block",
+    "prices_listed": "The price range shown in that block",
+    "lock_screen_per_description": "The listing's own text mentions a lock screen widget",
+    "kind": "What the app is, in one phrase (walking game, counter + virtual dog) — carried by rows from the cute guide, the only table with that column; an empty cell means the row is not in that guide",
+    "app_store_id": "Apple's numeric identifier for the listing; appended to https://apps.apple.com/us/app/id it opens the page this row was read from (id1037595083 is the first row)"
+  },
+  "count": 19,
+  "summary": {
+    "apps_total": 19,
+    "in_app_purchases": {
+      "checked": 14,
+      "with_none": 4,
+      "names_with_none": [
+        "Pedometer α",
+        "Plod",
+        "STEPPI",
+        "Steps — Simple Pedometer"
+      ],
+      "lowest_price_usd": 0.99,
+      "highest_price_usd": 88.99
+    },
+    "widget_mentioned_in_description": {
+      "checked": 19,
+      "yes": 13
+    },
+    "lock_screen_mentioned_in_description": {
+      "checked": 19,
+      "yes": 7
+    },
+    "ratings_count": {
+      "checked": 19,
+      "max": 291037,
+      "median": 500,
+      "min": 0
+    }
+  },
+  "apps": [
+    {
+      "name": "StepsApp Pedometer",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 291037,
+      "rating_average": 4.8,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "reads_health_per_description": "yes",
+      "last_updated": "Aug 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$0.99 – $19.99",
+      "app_store_id": "1037595083"
+    },
+    {
+      "name": "Pedometer++",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 180123,
+      "rating_average": 4.8,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "reads_health_per_description": "yes",
+      "last_updated": "May 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$1.99 – $39.99",
+      "app_store_id": "712286167"
+    },
+    {
+      "name": "Pedometer α",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 167598,
+      "rating_average": 4.9,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "reads_health_per_description": "no",
+      "last_updated": "Aug 2026",
+      "in_app_purchases": "none",
+      "app_store_id": "1027151285"
+    },
+    {
+      "name": "Steps — Activity Tracker",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 131721,
+      "rating_average": 4.8,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "reads_health_per_description": "yes",
+      "last_updated": "Aug 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$3.99",
+      "app_store_id": "708359518"
+    },
+    {
+      "name": "Pikmin Bloom",
+      "listed_in": [
+        "cute"
+      ],
+      "kind": "walking game",
+      "ratings_count": 66956,
+      "rating_average": 4.8,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "last_updated": "Aug 2026",
+      "app_store_id": "1556357398"
+    },
+    {
+      "name": "Stepz",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 32586,
+      "rating_average": 4.5,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "reads_health_per_description": "yes",
+      "last_updated": "Mar 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$0.99 – $6.99",
+      "app_store_id": "839671656"
+    },
+    {
+      "name": "Walkr",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "walking game",
+      "ratings_count": 8008,
+      "rating_average": 4.5,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "last_updated": "Aug 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$0.99 – $49.99",
+      "app_store_id": "834805518"
+    },
+    {
+      "name": "Steps — Simple Pedometer",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 5309,
+      "rating_average": 4.7,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "reads_health_per_description": "no",
+      "last_updated": "Jan 2026",
+      "in_app_purchases": "none",
+      "app_store_id": "1602546738"
+    },
+    {
+      "name": "StepDog",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "counter + virtual dog",
+      "ratings_count": 1267,
+      "rating_average": 4.2,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "last_updated": "Aug 2025",
+      "in_app_purchases": "yes",
+      "prices_listed": "not listed on the page we read",
+      "app_store_id": "1474625303"
+    },
+    {
+      "name": "Fito",
+      "listed_in": [
+        "cute"
+      ],
+      "kind": "fitness streaks + pet",
+      "ratings_count": 500,
+      "rating_average": 4.6,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "last_updated": "Aug 2026",
+      "app_store_id": "6596806184"
+    },
+    {
+      "name": "Habbie",
+      "listed_in": [
+        "cute"
+      ],
+      "kind": "habit tracker + pet",
+      "ratings_count": 239,
+      "rating_average": 4.4,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "last_updated": "Sep 2025",
+      "app_store_id": "6468639991"
+    },
+    {
+      "name": "STEPPI",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "step counter",
+      "ratings_count": 131,
+      "rating_average": 4.4,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "last_updated": "Jul 2026",
+      "in_app_purchases": "none",
+      "app_store_id": "1496731586"
+    },
+    {
+      "name": "Hot Girl Steps",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "step counter",
+      "ratings_count": 117,
+      "rating_average": 4.9,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "last_updated": "Jul 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$4.99 – $29.99",
+      "app_store_id": "6744621190"
+    },
+    {
+      "name": "CanGoGo",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "counter + collectable animals",
+      "ratings_count": 70,
+      "rating_average": 4.8,
+      "widget_per_description": "no",
+      "lock_screen_per_description": "no",
+      "last_updated": "Aug 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$0.99 – $6.99",
+      "app_store_id": "6499481356"
+    },
+    {
+      "name": "Simply Step",
+      "listed_in": [
+        "simple",
+        "free"
+      ],
+      "ratings_count": 32,
+      "rating_average": 4.6,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "reads_health_per_description": "yes",
+      "last_updated": "Jul 2026",
+      "in_app_purchases": "yes",
+      "prices_listed": "$1.99 – $19.99",
+      "app_store_id": "6759264285"
+    },
+    {
+      "name": "Plod",
+      "listed_in": [
+        "cute",
+        "free"
+      ],
+      "kind": "counter + hamster",
+      "ratings_count": 23,
+      "rating_average": 5.0,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "last_updated": "Jul 2026",
+      "in_app_purchases": "none",
+      "app_store_id": "6762918762"
+    },
+    {
+      "name": "GAIT — Minimal Step Widgets",
+      "listed_in": [
+        "simple"
+      ],
+      "ratings_count": 2,
+      "rating_average": 5.0,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "reads_health_per_description": "yes",
+      "last_updated": "Dec 2025",
+      "app_store_id": "6753881925"
+    },
+    {
+      "name": "Angel Step",
+      "listed_in": [
+        "cute",
+        "simple",
+        "free"
+      ],
+      "kind": "step counter with a sky",
+      "ratings_count": 0,
+      "rating_average": null,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "yes",
+      "last_updated": "Sep 2026",
+      "reads_health_per_description": "yes",
+      "in_app_purchases": "yes",
+      "prices_listed": "$8.99 – $88.99",
+      "app_store_id": "6805609971"
+    },
+    {
+      "name": "Yep — Minimalist Step Tracker",
+      "listed_in": [
+        "simple"
+      ],
+      "ratings_count": 0,
+      "rating_average": null,
+      "widget_per_description": "yes",
+      "lock_screen_per_description": "no",
+      "reads_health_per_description": "yes",
+      "last_updated": "Aug 2026",
+      "app_store_id": "6777710189"
+    }
+  ]
+}
